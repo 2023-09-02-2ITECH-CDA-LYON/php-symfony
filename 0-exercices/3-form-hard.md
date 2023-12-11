@@ -20,7 +20,7 @@
 
 ## Modalités
 
-- **Récupérez les [sources depuis ce template contenant le HTML/CSS/JS](./ressources/templates/hard.zip)**
+- **Récupérez les [sources depuis ce template contenant le HTML/CSS/JS](./ressources/source.zip)**
 - Codez en utilisant la programmation orientée objet (POO)
 
 ---
@@ -31,7 +31,7 @@
 
 ## Spécifications techniques
 
-- En utilisant les [validateurs]() et les [expressions régulières]()
+- En utilisant les [validateurs](https://www.php.net/manual/fr/filter.examples.validation.php) et les [expressions régulières](https://www.php.net/manual/en/function.preg-match.php)
 - Ecrivez des tests unitaires pour vérifier la validité des données
 - Le nom et prénom doivent avoir au moins 2 lettres, les tirets et les espaces sont acceptés, les chiffres sont interdits
 - L'email au format conventionnel exemple contact@tshimini.fr
