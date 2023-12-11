@@ -85,7 +85,7 @@ Vérifiez qu'une adresse email est au bon format.
 
 ## Exercice 8
 
-Créez une fonction qui prend en entrée une ressource (fichier) et qui affiche son contenu.
+Créez une fonction qui prend en entrée une ressource (fichier) et qui retourne son contenu.
 
 ---
 
@@ -97,18 +97,11 @@ Créez une fonction qui lit un csv et retourne le résultat sous forme de tablea
 
 ## Exercice 10
 
-Écrire un script qui produit le résultat ci-dessous :
-
-1
-22
-333
-4444
-5555
+Écrire un script qui produit le résultat ci-dessous à partir d'un nombre qu'on prend en entré un nombre par exemple ici 5 et qui produit ce résultat 122333444455555
 
 ### Spécifications techniques
 
 - En utilisant obligatoirement  une double boucle 
-- Les sauts de ligne ne sont pas obligatoires, vous pouvez avoir les résultats suivant à la place `122333444455555`
 
 ---
 
