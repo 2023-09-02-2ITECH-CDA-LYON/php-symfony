@@ -6,6 +6,7 @@
 
 - [PHPUnit](https://docs.phpunit.de/en/10.5/writing-tests-for-phpunit.html)
 - [Namespace](https://www.php.net/manual/en/language.namespaces.php)
+- [Autoloading](https://coopernet.fr/formation/php/autoload)
 - [Typages en PHP](https://tainix.fr/article-technique/Bonnes-pratiques-PHP-2-typage-protection-et-comparaison-stricte)
 - [Simuler un disque pour manipuler des fichiers durant les tests](https://github.com/bovigo/vfsStream/wiki)
 
