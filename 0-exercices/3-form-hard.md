@@ -37,7 +37,6 @@
 - L'email au format conventionnel exemple contact@tshimini.fr
 - Entre 15 et 36 caractères pour le mot de passe et ne contient pas les suites abcdef, qwerty, azerty, 123456
 - L'âge compris entre 14 et 130 ans
-- Pays et ville au moins 2 caractères, chiffres, lettres tout est autorisé
 
 ---
 
