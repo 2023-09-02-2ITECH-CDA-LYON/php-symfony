@@ -4,7 +4,7 @@
 
 ## Les bases
 
-- [Bases symfony](https://symfony.com/doc/current/introduction/http_fundamentals.html)
+- [A LIRE ABSOLUMENT les bases symfony](https://symfony.com/doc/current/introduction/http_fundamentals.html)
 
 ---
 
@@ -20,8 +20,8 @@ PS: pour toutes les commandes commençant par symfony présenté dans ce documen
 1. Ouvrez PowerShell (version >= 5.1)
 2. Installez scoop un programme d’installation en ligne de commande Windows permettant d’installer permettant d’installer d’autres programmes
 3. Exécutez dans l’ordre défini les instructions suivantes
-![symfscoop1](./img/install-scoop1.png)
-![symfscoop2](./img/install-scoop2.png)
+![symfscoop1](./img/scoop1.png)
+![symfscoop2](./img/scoop2.png)
 
 Ensuite, exécutez `symfony new project_name` rajoutez l’option `--webapp` pour une application web
 
@@ -43,6 +43,15 @@ Exécutez dans l’ordre défini les instructions suivantes
 
 ---
 
+## Exemple d'un projet sous symfony
+
+`symfony new myDemoProject --demo`
+
+Avec l'option ***demo***, vous allez installer le projet demo de symfony qui permet d'avoir un projet front et back avec les différents bundles de symfony.
+
+
+---
+
 ## Lancer son projet et y accéder via l'URL localhost avec un port qui sera renseigné dans le terminal
 
 - `symfony server:start`
@@ -51,6 +60,7 @@ Exécutez dans l’ordre défini les instructions suivantes
 
 ## Quelques commandes
 
+- Voir la liste de toutes les commandes : `php bin/console`
 - Effacer le cache : `php bin/console cache:clear`
 - Voir la liste de tous les services : `php bin/console debug:container`
 - Voir la liste des classes qui écoutent un événement par exemple ici le kernel.request : `php bin/console debug:event-dispatcher kernel.controller`
