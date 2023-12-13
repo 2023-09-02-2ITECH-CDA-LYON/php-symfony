@@ -12,9 +12,10 @@
 - [Stocker des valeurs dans les sessions](https://www.php.net/manual/fr/reserved.variables.session.php)
 - [Toutes les fonctions liées aux sessions](https://www.php.net/manual/fr/ref.session.php)
 - [Cookies](https://www.php.net/manual/fr/function.setcookie.php)
-- [Tests E2E (end to end) avec Cypress]()
-- [MVC]()
-- Parser du JSON
+- [Tests E2E (end to end) avec Cypress](https://docs.cypress.io/guides/overview/why-cypress#Writing-tests)
+- [MVC](../cours/php/mvc/README.md)
+- [Sérialiser un objet en JSON](https://www.php.net/manual/fr/function.json-encode.php)
+- [desérialiser un JSON en Objet ou tableau](https://www.php.net/manual/fr/function.json-decode.php)
 
 ---
 
@@ -63,7 +64,7 @@
 2. Après l'authentification redirigé l'utilisateur vers la page d'actualité, ce dernier affiche  les actualités d'un ou plusieurs flux RSS ainsi que la météo de la ville de l'utilisateur choisi lors de son inscription
 
 
----
+<!-- ---
 
 ## Bonus
 
