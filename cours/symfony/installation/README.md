@@ -23,7 +23,7 @@ PS: pour toutes les commandes commençant par symfony présenté dans ce documen
 ![symfscoop1](./img/scoop1.png)
 ![symfscoop2](./img/scoop2.png)
 
-Ensuite, exécutez `symfony new project_name` rajoutez l’option `--webapp` pour une application web
+Ensuite, exécutez `symfony new project_name` rajoutez l’option `--webapp` pour une application web ou `--full`
 
 ### Avec composer
 
@@ -54,7 +54,9 @@ Avec l'option ***demo***, vous allez installer le projet demo de symfony qui per
 
 ## Lancer son projet et y accéder via l'URL localhost avec un port qui sera renseigné dans le terminal
 
-- `symfony server:start`
+- `symfony serve:start`
+- ou `symfony serve -d`
+- ou `symfony open:local`
 
 ---
 
@@ -63,8 +65,8 @@ Avec l'option ***demo***, vous allez installer le projet demo de symfony qui per
 - Voir la liste de toutes les commandes : `php bin/console`
 - Effacer le cache : `php bin/console cache:clear`
 - Voir la liste de tous les services : `php bin/console debug:container`
+- Voir toutes les classes ou interfaces qui peuvent être injecté dans les constructeurs ou méthodes des contrôleurs : `php bin/console debug:autowiring`
 - Voir la liste des classes qui écoutent un événement par exemple ici le kernel.request : `php bin/console debug:event-dispatcher kernel.controller`
-
 
 ---
 

@@ -1,5 +1,6 @@
 # Routing
 
+- `php bin/console debug:router`: voir toutes les routes de votre application
 - [Documentation](http://igm.univ-mlv.fr/~dr/XPOSE2014/Symfony/architecture.png)
 Il y a plusieurs façons de définir les routes
 - Via les annotations (un commentaire avec le mot-clé route) directement au niveau des méthodes du contrôleur
