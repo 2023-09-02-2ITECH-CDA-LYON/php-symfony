@@ -29,6 +29,8 @@
 
 ## Validator
 
+- [Documentation sur tous les validateurs](https://symfony.com/doc/current/reference/constraints.html)
+
 ### Installation si les bundles ne sont pas déjà installés
 
 - `composer require symfony/validator`
