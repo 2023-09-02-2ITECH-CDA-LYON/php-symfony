@@ -97,11 +97,7 @@ Créez une fonction qui lit un csv et retourne le résultat sous forme de tablea
 
 ## Exercice 10
 
-Écrire un script qui produit le résultat ci-dessous à partir d'un nombre qu'on prend en entré un nombre par exemple ici 5 et qui produit ce résultat 122333444455555
-
-### Spécifications techniques
-
-- En utilisant obligatoirement  une double boucle 
+Écrire un script qui produit le résultat ci-dessous à partir d'un nombre qu'on prend en entré. Par exemple ici 5 et qui produit ce résultat 122333444455555
 
 ---
 
@@ -115,7 +111,7 @@ Une fonction qui prend 2 paramètres en entrée et en sortie, il permute les deu
 
 #### Exemple
 
-`myFunction ($nb1, $nb2) {`
+`myFn ($nb1, $nb2) {`
 
 `// your code here`
 
@@ -123,7 +119,7 @@ Une fonction qui prend 2 paramètres en entrée et en sortie, il permute les deu
 
 `}`
 
-`myFunction(2, 3) // [3,2]`
+`myFn(2, 3) // [3,2]`
 
 ---
 
@@ -144,10 +140,11 @@ A partir d'un tableau associatif, lorsqu'un utilisateur saisit la valeur de l'in
 ### Exemple
 
 `<?php
-  $personnes = array('major' => true, 'age' => 36, 'name' => fatou);
-  $vFatou = myFunction("age"); // 36
-  $vNull = myFunction('address'); // null`
-
+  $personnes = array('major' => true, 'age' => 36, 'name' => 'fatou');
+  $vFatou = myFn("age"); // 36
+  $vNull = myFn('address'); // null
+  $numbers = [10,50,9,56,87];
+  $vNum = myFn(50);//1`
 
 ---
 
@@ -177,7 +174,7 @@ En utilisant le tableau ci-dessous, compter le nombre d'éléments du tableau et
 
 ## Exercice 16
 
-En utilisant la fonction rand(), remplir un tableau avec 10 nombres aléatoires compris entre 0 et 50. Puis, tester si le chiffre 25 est dans le tableau.
+En utilisant la fonction rand(), remplir un tableau avec 10 nombres aléatoires compris entre 0 et 100. Puis, tester si le chiffre donné en paramètre est présent dans le tableau en retournant true ou false.
 
 ---
 
