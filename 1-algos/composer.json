@@ -1,0 +1,32 @@
+{
+    "name": "glodie/4-php-symfony",
+    "description": "PHP and Symfony session",
+    "type": "project",
+    "require-dev": {
+        "phpunit/phpunit": "^9.6",
+        "mikey179/vfsstream": "^1.6",
+        "spatie/phpunit-watcher": "^1.23"
+    },
+    "scripts": {
+        "unit": "phpunit tests",
+        "coverage": "phpunit tests --coverage-html coverage",
+        "watch": "phpunit-watcher watch"
+    },
+    "autoload": {
+        "psr-4": {
+            "Glodie\\Algos\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Glodie\\Algos\\tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Glodie Tshimini",
+            "email": "contact@tshimini.fr"
+        }
+    ],
+    "minimum-stability": "stable"
+}
