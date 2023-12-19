@@ -4,6 +4,7 @@ declare(strict_types=1);
 namespace Glodie\Algos\Tests;
 use Glodie\Algos\User;
 use PHPUnit\Framework\TestCase;
+use TypeError;
 
 /**
  * @covers Glodie\Algos\User
@@ -17,6 +18,13 @@ class UserTest extends TestCase {
     $user = new User($age);
     // Assert
     $this->assertEquals($expected, $user->getGeneration());
+  }
+
+  public function testGetGenerationThrowException() {
+    // Assert
+    $this->expectException(TypeError::class);
+    // Act
+    new User('toto');
   }
 
   /**
